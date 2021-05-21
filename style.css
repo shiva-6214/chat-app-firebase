@@ -1,0 +1,46 @@
+.card_main {
+    margin-top: 15px;
+    min-height: 600px;
+}
+
+#lblUserName {
+    font-weight: bold;
+}
+
+.content {
+    height: 550px;
+    background-image: url('chat.jfif');
+    overflow-y: scroll;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.msg {
+    max-width: 300px;
+    padding: 13px;
+    margin-bottom: 7px;
+    margin-left: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.msgOther {
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 7px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+}
+
+.buttonDel {
+    margin-left: 5px;
+    float: right;
+    margin-right: 5px;
+}
